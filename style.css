@@ -1,72 +1,102 @@
+Skip to content
+ 
+Search or jump to…
+
+Pull requests
+Issues
+Marketplace
+Explore
+ 
+@Biratthapa Sign out
+0
+0 0 Davidsuwal/The-Optimizers
+ Code  Issues 0  Pull requests 0  Projects 1  Wiki  Insights
+The-Optimizers/formsite of s310417 Birat Thapa/style.css
+@Biratthapa Biratthapa Update style.css
+cb3b78a 5 hours ago
+@Biratthapa @Davidsuwal
+83 lines (75 sloc)  1.33 KB
+    
 body{
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  background: #d6cdcd;
-
-
+  background: url(gg.jpg) no-repeat center fixed;
+  background-size: cover;
 
 }
-form{
-
-  width:40%;
+.form-box{
+  width:600px;
   position: absolute;
   top:50%;
   left: 50%;
   transform: translate(-50%,-50%);
   color: white;
-  background: rgba(20,0, 0, 0.4);
+  background: rgba(0, 30, 50, 0.3);
 
 }
-form h1{
-  color:white;
-  font-family: sans-serif;
+.form-box h1{
+  color: #ccd6e0;
+  font-family: monospace;
   text-align: center;
-  font-size: 40px;
 
 }
-form input{
-  width: 400px;
+.formcontrol{
+  width: 500px;
   margin-left: 50px;
   margin-right: 50px;
-  background: rgba(0,0, 20, 0.2);
+  background: rgba(100,100, 100, 0.3);
+  border: none;
+  outline: none;
+  border-bottom: 1px solid gray;
   color: #fff;
   font-size: 18px;
   margin-bottom: 16px;
 }
-
-
-form label{
-
+.birthdate{
+  width: 500px;
   margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 16px;
+
+}
+.formcontrol-label{
+  width: 500px;
+  margin-left: 50px;
+  background: transparent;
+  border: none;
+  outline: none;
   color: #fff;
   font-size: 18px;
 
 }
-form button{
-  background: rgba(0,0, 20, 0.2);
+.form-box button{
+  background: #506d4c;
   border-color: transparent;
   color: #fff;
-  font-size: 15px;
+  font-size: 20px;
   font-weight: bold;
   letter-spacing: 1.5px;
   height:30px;
-  margin-bottom: 30px;
+  margin: 20px;
   transform: translate(200%);
-  margin-top:10px;
 
 
 }
-button:hover{
+.form-box button:hover{
   background-color: #85a4bf;
   cursor: pointer;
  }
-form select{
-   background:rgba(0,0, 20, 0.2);
+ .form-box select{
+   background: #2d3f4f;
    color: #fff;
-   padding: 0px;
-   width: 90px;
-   height:30px;
+   padding: 10px;
+   width: 50px;
+   height: 50px;
    border: none;
-   font-size: 15px;
+   font-size: 18px;
  }
+ .input:required {
+    border: 1px solid #ffc107;
+}
+
