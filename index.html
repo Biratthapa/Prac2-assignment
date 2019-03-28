@@ -2,39 +2,41 @@
 <!DOCTYPE HTML>
 <!-- Website Template by freewebsitetemplates.com -->
 <html lang="en">
+<meta name="viewport" content="width=device-width, initial-scale=1">
 <head>
 	<meta charset="UTF-8">
 	<title>Form website</title>
 	<link rel="stylesheet" href="style.css">
 </head>
 <body>
+	<div class="form-box">
 
-
+  <h1>Registration form</h1>
    <form>
-		   <h1>Registration form</h1>
 
-      <label for="firstname" >First Name</label>
-      <input type="text" id="firstname" name="firstname">
+      <label for="firstname" class="formcontrol-label">First Name</label>
+      <input type="text" class="formcontrol" id="firstname" name="firstname">
 
-      <label for="lastname" >Last Name</label>
-      <input type="text" id="lastname" name="lastname">
+      <label for="lastname" class="formcontrol-label">Last Name</label>
+      <input type="text" class="formcontrol" id="lastname" name="lastname">
 
-      <label for="address" >Address</label>
-      <input type="text"  id="address" name="useraddress">
+      <label for="address" class="formcontrol-label">Address</label>
+      <input type="text" class="formcontrol" id="address" name="useraddress">
 
-      <label for="email" >Email</label>
-      <input type="text" id="email" name="useremail">
+      <label for="email" class="formcontrol-label">Email</label>
+      <input type="text" class="formcontrol" id="email" name="useremail" placeholder="example: jane.doe@example.com" required>
 
-      <label for="telephone" >Telephone Number</label>
+      <label for="telephone" class="formcontrol-label">Telephone Number</label>
 			<select name="phone">
 		   <option value="phone">+61</option>
 			 <option value="phone">+62</option>
 			 <option value="phone">+63</option>
 		  </select>
-      <input type="text" id="telephone" name="usertelephone">
+      <input type="text" class="formcontrol" id="telephone" name="usertelephone">
 
-			<label for="dob">Birthdate</label>
-			<select name="month" id="dob">
+			<label class="formcontrol-label">Birthdate</label>
+			<div class="birthdate">
+		  <select name="month">
 		   <option value="month">Month</option>
 		   <option value="january">January</option>
 		   <option value="february">February</option>
@@ -109,11 +111,13 @@
 			 <option value="2020">2020</option>
 
 		 </select>
+	 </div>
 
     <div class="button">
        <button type="submit">Register</button>
     </div>
    </form>
-
+  </div>
 </body>
 </html>
+
